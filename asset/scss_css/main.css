@@ -76,9 +76,8 @@ i {
     display: grid;
     -ms-grid-columns: 20% 20% 20% 20%;
         grid-template-columns: 20% 20% 20% 20%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .section--tittle {
     -ms-grid-column: 1;
@@ -99,7 +98,7 @@ i {
     font-size: 40px;
   }
   figcaption {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
